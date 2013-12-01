@@ -1,0 +1,17 @@
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Demo Plugin\NppManagedPluginDemo\bin\Release\Demo.dll
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Demo Plugin\NppManagedPluginDemo\obj\Release\NppPluginNET.frmGoToLine.resources
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Demo Plugin\NppManagedPluginDemo\obj\Release\NppPluginNET.Properties.Resources.resources
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Demo Plugin\NppManagedPluginDemo\obj\Release\NppManagedPluginDemo.VS2010.csproj.GenerateResource.Cache
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Demo Plugin\NppManagedPluginDemo\obj\Release\Demo.dll
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppPluginNET.frmGoToLine.resources
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppPluginNET.Properties.Resources.resources
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppManagedPluginDemo.VS2010.csproj.GenerateResource.Cache
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\Demo.dll
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\bin\Release\Demo.dll
+D:\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppManagedPluginDemo.VS2010.csprojResolveAssemblyReference.cache
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\bin\Release\Demo.dll
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppManagedPluginDemo.VS2010.csprojResolveAssemblyReference.cache
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppPluginNET.frmGoToLine.resources
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppPluginNET.Properties.Resources.resources
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\NppManagedPluginDemo.VS2010.csproj.GenerateResource.Cache
+E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Release\Demo.dll
