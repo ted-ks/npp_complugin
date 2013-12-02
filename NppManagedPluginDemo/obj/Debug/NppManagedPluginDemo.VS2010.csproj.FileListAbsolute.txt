@@ -19,3 +19,10 @@ E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\o
 E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Debug\NppManagedPluginDemo.VS2010.csproj.GenerateResource.Cache
 E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Debug\Demo.dll
 E:\d_backup\Npp_plugin_tut\NppPlugin.NET.v0.5\Mine PLugin\NppManagedPluginDemo\obj\Debug\Demo.pdb
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\bin\Debug\Demo.dll
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\bin\Debug\Demo.pdb
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\obj\Debug\NppPluginNET.frmGoToLine.resources
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\obj\Debug\NppPluginNET.Properties.Resources.resources
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\obj\Debug\NppManagedPluginDemo.VS2010.csproj.GenerateResource.Cache
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\obj\Debug\Demo.dll
+D:\fun\GIT-hubs\Npp_plugin\npp_complugin\NppManagedPluginDemo\obj\Debug\Demo.pdb

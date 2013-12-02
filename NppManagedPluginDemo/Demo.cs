@@ -144,27 +144,44 @@ namespace NppPluginNET
 
         static void OpenCompilerSettings()
         {
+            noOfCompilers = 2;
+            int correctionSquare = 0;
+            correctionSquare = 30;
+
+            int tempWidth = correctionSquare * 2 + 500;
+            int tempHeight = correctionSquare * 4 + noOfCompilers  * 50;
+
+            
+            float width_ratio = (Screen.PrimaryScreen.Bounds.Width / 1920);
+            float height_ratio = (Screen.PrimaryScreen.Bounds.Height / 1080);
+            
             if (CompilerSettingsForm == null)
             {
                 CompilerSettingsForm = new Form();
 
                 CompilerSettingsForm.Name = "Compiler_settings";
-                CompilerSettingsForm.Text = "Compiler/Interpreter settings";
+                CompilerSettingsForm.Text = "Set and Edit Compiler collection options";
+
+                
 
                 CompilerSettingsForm.FormClosed += (_, arg) =>
                     {
                         CompilerSettingsForm = null;
                     };
 
+                
                 GroupBox compilerCollectionBox = new GroupBox();
                 RadioButton compilers;
                 compilerCollectionBox.SuspendLayout();
                 CompilerSettingsForm.SuspendLayout();
-
+                
                 // Group box positioning and naming
                 compilerCollectionBox.Text = "Compilers installed";
-                compilerCollectionBox.Size = new Size(50, 50);
-                noOfCompilers = 2;
+                compilerCollectionBox.Size = new Size(tempWidth - correctionSquare * 2, tempHeight - correctionSquare * 4);
+                compilerCollectionBox.Top = 0 + correctionSquare;
+                compilerCollectionBox.Left = 0 + correctionSquare;
+
+               
 
                 CompilerSettingsForm.Controls.Add(compilerCollectionBox);
 
@@ -172,15 +189,38 @@ namespace NppPluginNET
                 {
                     compilers = new RadioButton();
                     compilers.AutoSize = true;
-                    compilers.Text = "Compiler Name";
+                    compilers.Text = "Compiler Name " + i.ToString();
+
+                    // Radtio Button positioning
+
+                    compilers.Top = correctionSquare + correctionSquare * i;
+                    compilers.Left =  20;
+                    
 
                     ToolTip tooltips = new ToolTip();
                     tooltips.SetToolTip(compilers, "Path to the compiler");
-
+                    
                     compilerCollectionBox.Controls.Add(compilers);
                     
 
                 }
+
+
+
+                // Controlling the Size of the new Form
+                // Scaling Is used for diff resolutions
+
+                CompilerSettingsForm.Size = new Size(tempWidth, tempHeight);
+                MessageBox.Show(width_ratio.ToString() + "  " + height_ratio.ToString());
+                SizeF tempScale = new SizeF(width_ratio, height_ratio);
+                CompilerSettingsForm.Scale(tempScale);
+
+                // TODO : Need to control the size of the Font
+
+                CompilerSettingsForm.MaximizeBox = false;
+                
+
+                // Scaling complelted TODO:can be put in a function
 
                 compilerCollectionBox.ResumeLayout();
                 compilerCollectionBox.PerformLayout();
